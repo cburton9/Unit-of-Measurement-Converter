@@ -49,7 +49,7 @@ elif convert_from.lower() in ["yards","yard","yds","yd","yrds","yrd"]:
     if convert_to.lower() in["inches","in","inch"]:
          print("Result: " + str(number_of_Yards)+ " Yards = " + str(round(number_of_Yards * 36 )) + " Inches")
     elif convert_to.lower() in ["feet","foot","ft"]:
-        Print("Result: " + str(number_of_Yards)+ " Yards = " + str(round(number_of_Yards * 3 )) + " Feet")
+        print("Result: " + str(number_of_Yards)+ " Yards = " + str(round(number_of_Yards * 3 )) + " Feet")
     else:
         print("Please Enter either Inches, Feet, or Yards")
 
