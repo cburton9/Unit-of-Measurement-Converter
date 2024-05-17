@@ -1,3 +1,7 @@
+## Unit of Measurement Converter
+
+
+```python
 convert_from = input("Enter Starting Unit of Measurement(inches, feet, yards):")
 
 convert_to = input("Enter Unit of Measurement to Convert to(inches, feet, yards):")
@@ -21,7 +25,24 @@ number_of_MilliMeter= input("Enter Starting Measurment in MilliMeter:")
 number_of_MicroMeter= input("Enter Starting Measurment in MicroMeter:")
 
 number_of_NanoMeter= input("Enter Starting Measurment in NanoMeter:")
+```
 
+    Enter Starting Unit of Measurement(inches, feet, yards): feet
+    Enter Unit of Measurement to Convert to(inches, feet, yards): yard
+    Enter Starting Measurment in Inches: 2
+    Enter Starting Measurment in Yards: 1
+    Enter Starting Measurment in Feet: 1
+    Enter Starting Measurment in Miles: 
+    Enter Starting Measurment in Meters: 1
+    Enter Starting Measurment in KiloMeters: 
+    Enter Starting Measurment in CentiMeters: 1
+    Enter Starting Measurment in MilliMeter: 1
+    Enter Starting Measurment in MicroMeter: 1
+    Enter Starting Measurment in NanoMeter: 
+    
+
+
+```python
 convert_from = input("Enter Starting Unit of Measurement(inches, feet, yards):")
 
 convert_to = input("Enter Unit of Measurement to Convert to(inches, feet, yards):")
@@ -49,9 +70,22 @@ elif convert_from.lower() in ["yards","yard","yds","yd","yrds","yrd"]:
     if convert_to.lower() in["inches","in","inch"]:
          print("Result: " + str(number_of_Yards)+ " Yards = " + str(round(number_of_Yards * 36 )) + " Inches")
     elif convert_to.lower() in ["feet","foot","ft"]:
-        print("Result: " + str(number_of_Yards)+ " Yards = " + str(round(number_of_Yards * 3 )) + " Feet")
+        Print("Result: " + str(number_of_Yards)+ " Yards = " + str(round(number_of_Yards * 3 )) + " Feet")
     else:
         print("Please Enter either Inches, Feet, or Yards")
+
+else: 
+    print("Please Enter either Inches, Feet, or Yards.")
+    
+```
+
+    Enter Starting Unit of Measurement(inches, feet, yards): feet
+    Enter Unit of Measurement to Convert to(inches, feet, yards): yards
+    Enter Starting Measurment in Feet: 5
+    
+
+    Result: 5 Feet = 1.67 Yards
+    
 
 else: 
     print("Please Enter either Inches, Feet, or Yards.")
